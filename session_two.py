@@ -19,7 +19,7 @@ print(area)
 length_from_input = float(input('Enter length'))
 width_from_input = float(input('Enter width'))
 area_from_user = length_from_input * width_from_input
-print('The area of the squared room of length', length_from_input, 'and width' , width_from_input, 'is', area_from_user)
+print('The area of the squared room of length' + length_from_input + 'and width' + width_from_input  + is =area_from_user)
 
 # computing Loan payment
 # Exercice 4
