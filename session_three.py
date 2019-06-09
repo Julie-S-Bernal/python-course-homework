@@ -73,10 +73,10 @@ reverseUserWord = reversed(userWord)
 if list(userWord)== list(reverseUserWord):
     print('You found a palindrome')
 else:
-	print('Oh no, no palindrome :(')
+    print('Oh no, no palindrome')
 
 
-Caesar Cipher
+# Caesar Cipher
 
 def encrypt(string, shift):
  

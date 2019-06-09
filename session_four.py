@@ -1,3 +1,4 @@
+
 # Exercice 1
 # data = []
 # num = input("Enter an integer ('q' to quit): ")
@@ -77,9 +78,9 @@ def sort(s):
 main()
 
 
-# exercice hangman
+# exercice 6  hangman
 
-iimport random
+import random
 
 def main():
     words = ["write", "program", "that", "receive", "positive", "change", "study", "excellent", "nice"]
@@ -116,5 +117,3 @@ def toString(list):
     return s
 
 main()
-
-
