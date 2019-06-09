@@ -1,52 +1,52 @@
 
 # Exercice 1
-# data = []
-# num = input("Enter an integer ('q' to quit): ")
-# while num != 'q':
-#     data.append(int(num))
-#     num = input("Enter an integer ('q' to quit): ")
-# data.sort()
-# print("The values, sorted into ascending order are:")
-# for element in data:
-#     print(element)
+ data = []
+ num = input("Enter an integer ('q' to quit): ")
+ while num != 'q':
+     data.append(int(num))
+     num = input("Enter an integer ('q' to quit): ")
+ data.sort()
+ print("The values, sorted into ascending order are:")
+ for element in data:
+     print(element)
 
  # Exercice 2
 
-# def main() :
-#  	year = int(input('enter a year'))
-#  	animals = ["monkey","rooster","dog","pig","rat","ox","tiger","rabbit","dragon","snake","horse","sheep"]
-#  	print(year, "is", animals[year % 12])
+ def main() :
+  	year = int(input('enter a year'))
+  	animals = ["monkey","rooster","dog","pig","rat","ox","tiger","rabbit","dragon","snake","horse","sheep"]
+  	print(year, "is", animals[year % 12])
 # main()
 
  # Exercice 3
 
-# import random
+ import random
 
-# random_list = [random.choice(list(range(1, 100))) for i in range(10)]
+ random_list = [random.choice(list(range(1, 100))) for i in range(10)]
 
-# def get_min_index(any_list):
-#     print("the min is", min(any_list))
-#     print("its index is", random_list.index(min(random_list)))
+ def get_min_index(any_list):
+     print("the min is", min(any_list))
+     print("its index is", random_list.index(min(random_list)))
 
-# print(random_list)
-# get_min_index(random_list)
+ print(random_list)
+ get_min_index(random_list)
 
 # # Exercice 4
 
-# def main():
-#     s = input("Enter numbers: ") 
-#     items = s.split()
-#     numbers = [int(x) for x in items]
-#     print("The distinct numbers are:", eliminateDuplicates(numbers))
+ def main():
+     s = input("Enter numbers: ") 
+     items = s.split()
+     numbers = [int(x) for x in items]
+     print("The distinct numbers are:", eliminateDuplicates(numbers))
 
-# def eliminateDuplicates(list):
-#     result = [] 
-#     for element in list:
-#         if not (element in result):
-#             result.append(element)
-#     return result
+ def eliminateDuplicates(list):
+     result = [] 
+     for element in list:
+         if not (element in result):
+             result.append(element)
+     return result
 
-# main()
+ main()
 
 
 # exercice 5 anagrams
